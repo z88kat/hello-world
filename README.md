@@ -3,7 +3,12 @@ Atari Lynx programming tutorial Hello World
 
 ## Requirements
 
-cc65
+cc65<br>
+gcc
+
+## Environment
+
+export CC65_HOME={cc65 home dir}
 
 ## Build
 

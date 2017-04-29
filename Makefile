@@ -5,9 +5,11 @@
 #
 # Configure your CC65 location
 #
+# Make sure CC65_HOME is set in your environment
+#
 
 # These first entries are synonyms for directory names
-CC65=/Users/kate/Applications/cc65
+CC65=$(CC65_HOME)
 CC65_BIN=$(CC65)/bin
 CC65_INC=$(CC65)/include
 CC65_TARGET=$(CC65)/target
@@ -30,12 +32,12 @@ SYS=lynx
 # Shorthand names for the various tools in the compiler suite
 # The first five are the compilers and linker
 #  SPRPCK is the sprite utility from the BLL toolkit 
-CO=co65
-CC=cc65
-AS=ca65
-AR=ar65
-CL=cl65
-SPRPCK=sprpck
+CO=$(CC65_BIN)/co65
+CC=$(CC65_BIN)/cc65
+AS=$(CC65_BIN)/ca65
+AR=$(CC65_BIN)/ar65
+CL=$(CC65_BIN)/cl65
+SPRPCK=$(CC65_BIN)sprpck
 CP=cp
 RM=rm
 ECHO=echo
