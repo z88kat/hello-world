@@ -10,6 +10,8 @@ gcc
 
 export CC65_HOME={cc65 home dir}
 
+http://cc65.github.io/cc65
+
 ## Build
 
 make all
